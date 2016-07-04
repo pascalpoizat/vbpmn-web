@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>VBPMN / Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="VBPMN Framework Web Page">
+    <meta name="author" content="VBPMN Team">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font-Awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/verchor-template.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">VBPMN Framework</a>
+	  </div>
+	  <div class="navbar-collapse collapse">
+	  <ul class="nav navbar-nav">
+	    <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+	    <li><a href="tour.html"><i class="fa fa-video-camera"></i> Tour</a></li>
+	    <li class="active"><a href="documentation.html"><i class="fa fa-archive"></i> Documentation</a></li>
+	    <li><a href="downloads.html"><i class="fa fa-arrow-circle-o-down"></i> Downloads</a></li>
+	    <li><a href="about.html"><i class="fa fa-group"></i> About</a></li>
+	  </ul>
+	</div>
+	</div>
+	</div>
+	<div class="container">
+
+	  <h2>Installation</h2>
+
+	  <p>In addition
+	  to the VBPMN distribution (see <a
+	  href="downloads.html">here</a>) you need to install:
+	  <ul>
+	    <li>Java RE<br />
+        <em>This is needed to transform BPMN files into the
+	  PIF format.<br>
+    It is not required if you plan to use the PIF format directly.</em><br />
+         <a href="http://www.java.com/download/" class="thin
+	  icon-download btn btn-primary" role="button">Download Java
+	  RE</a>
+	    <div class="alert alert-info">
+	      Note: VBPMN requires JRE\JDK 1.8 and above.
+	    </div>
+	    </li>
+      <li>Apache Tomcat Server 8.0<br />
+        <em>This is needed for deploying and hosting the VBPMN Web Archive (WAR)<br />
+        It is not required if you plan to work directly with the PIF format and use command-line commands.</em><br />
+         <a href="http://tomcat.apache.org/download-80.cgi" class="thin
+    icon-download btn btn-primary" role="button">Download
+    Tomcat 8.0</a> <br />
+      </li>
+      <br />
+	    <li>Python distribution and the PyXB library<br>
+        <em>This is needed to read PIF files and
+	  generate formal description files.</em><br>
+         <a href="http://www.python.org/download/releases/2.7/" class="thin
+	  icon-download btn btn-primary" role="button">Download
+	  Python 2.7.x</a>
+         <a href="http://sourceforge.net/projects/pyxb/files/pyxb/1.1.1%20(Beta)/" class="thin
+	  icon-download btn btn-primary" role="button">Download
+	  PyXB 1.1.1</a><br />
+	    <div class="alert alert-warning">
+	  Warning: Python 2.7.x and PyXB 1.1.1 should be used.<br />Newer versions may not
+	  work correctly with VBPMN.</div></li>
+	  <li>the CADP toolbox<br>
+      <em>This is needed to perform formal analyses on
+	  the formal description files.</em><br />
+         <a href="http://cadp.inria.fr/" class="thin
+	  icon-download btn btn-primary" role="button">Download CADP</a>
+	    </li>
+	  </ul>
+	  Then please take a look at the <code>readme.txt</code> in
+	  the VBPMN distribution.
+	  </p>
+
+	  <h2>Examples of VBPMN usage</h2>
+
+	  <p>See <a href="tour.html">the guided tour</a> and the
+	  <code>readme.txt</code> in the VBPMN distribution.
+	  </p>
+
+	  <h2>Process Intermediate Format (PIF)</h2>
+
+	  <p>The XML schema description for PIF is available in the
+	  <code>xml</code> directory of the VBPMN  source code distribution.
+	  </p>
+
+    <hr>
+
+      <footer>
+        <p class="pull-right"><a href="documentation.html#">Back to top</a></p>
+        <p>&copy; 2016 VBPMN Team</a></p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
