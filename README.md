@@ -2,7 +2,12 @@ VBPMN - Verification of BPMN
 ==============================
 Website for VBPMN - https://pascalpoizat.github.io/vbpmn/
 
-Dependencies
+
+License
+=============================
+[![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE.md)
+
+Web pages
 ============
 
 These pages are built on top of:
