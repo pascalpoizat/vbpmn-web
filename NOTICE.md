@@ -3,7 +3,7 @@
 =========================================================================
 
 Verification of BPMN (VBPMN)
-Copyright 2016 The VBPMN Team.
+Copyright 2017 The VBPMN Team.
 
 This distribution includes software developed at
 The [Apache](http://www.apache.org/) Software Foundation.
