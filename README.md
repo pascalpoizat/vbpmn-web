@@ -23,7 +23,7 @@ http://localhost:8080/transformation/home.html
 
 If you need sample BPMN 2.0 models to try, you can download it from the site
 
-[**Download BPMN 2.0 Samples**](https://pascalpoizat.github.io/vbpmn/downloads/samples.zip) 
+[**Download BPMN 2.0 Samples**](https://pascalpoizat.github.io/vbpmn-web/downloads/samples.zip) 
 
 For more information, you can visit the VBPMN site - https://pascalpoizat.github.io/vbpmn-web/
 
