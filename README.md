@@ -14,7 +14,7 @@ Usage
 VBPMN web app is available for download as a web archive (WAR). 
 Hosting of the web app requires [Apache Tomcat 8.0](https://tomcat.apache.org/download-80.cgi). 
 
-[**Download VBPMN**](https://pascalpoizat.github.io/vbpmn/downloads/transformation.war) 
+[**Download VBPMN**](https://pascalpoizat.github.io/vbpmn-web/downloads/transformation.war) 
 
 Once you have the web app running, you can access the application 
 using the following web page (assuming tomcat is running locally on port 8080)
@@ -23,9 +23,9 @@ http://localhost:8080/transformation/home.html
 
 If you need sample BPMN 2.0 models to try, you can download it from the site
 
-[**Download BPMN 2.0 Samples**](https://pascalpoizat.github.io/vbpmn/downloads/samples.zip) 
+[**Download BPMN 2.0 Samples**](https://pascalpoizat.github.io/vbpmn-web/downloads/samples.zip) 
 
-For more information, you can visit the VBPMN site - https://pascalpoizat.github.io/vbpmn/
+For more information, you can visit the VBPMN site - https://pascalpoizat.github.io/vbpmn-web/
 
 Contributors
 =====================================
