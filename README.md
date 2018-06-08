@@ -19,7 +19,7 @@ Hosting of the web app requires [Apache Tomcat 8.0](https://tomcat.apache.org/do
 Once you have the web app running, you can access the application 
 using the following web page (assuming tomcat is running locally on port 8080)
 
-http://localhost:8080/transformation/home.html  
+http://localhost:8080/transformation 
 
 If you need sample BPMN 2.0 models to try, you can download it from the site
 
